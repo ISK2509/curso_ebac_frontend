@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(9, 6, 108);
+    padding: 30px 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto; 
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 30px 0;
+}
+
+section h2,
+.article article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.articles article a {
+    background-color: rgb(39, 6, 173);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article  p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h2 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sports {
+    background-color: rgba(215, 215, 215, 0.258);
+}
+
+#sports .articles article a {
+    background-color:  rgba(39, 39, 39, 0.8);
+}
+
+#economy {
+    background-color: rgba(221, 254, 242, 0.612);
+}
+
+#economy .articles article a {
+    background-color: rgba(4, 79, 32, 0.612);
+}
+
+#entertainment {
+    background-color: rgba(249, 250, 211, 0.612);
+}
+
+#entertainment .articles article a {
+    background-color: rgb(216, 103, 10);
+}
+
+#healthy {
+    background-color: rgba(211, 238, 250, 0.612);
+}
+
+#healthy .articles article a {
+    background-color: rgba(0, 79, 124, 0.76);
+}
